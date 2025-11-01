@@ -46,7 +46,7 @@ Download from: `https://github.com/YOUR_USERNAME/YOUR_REPO/releases/latest`
 
 **Three psychologically-optimized CV variants**:
 - **Software Developer** - Creativity, problem-solving, technical expertise (Purple - innovation)
-- **DevOps Engineer** - Reliability, automation, efficiency (Green - stability)
+- **DevOps Engineer** - Collaboration, automation, developer enablement (Orange - energy & approachability)
 - **Cloud Engineer** - Trust, scalability, expertise (Blue - professionalism)
 
 Each variant filters your experience based on tags and uses color psychology to create the right first impression
@@ -112,7 +112,7 @@ Edit templates in `templates/*/template.tex.j2` - each uses AltaCV LaTeX class w
 
 **Current color schemes** (based on color psychology research):
 - **Software Developer**: Purple (#7C3AED) - Innovation, creativity, problem-solving
-- **DevOps Engineer**: Green (#059669) - Growth, stability, operational health
+- **DevOps Engineer**: Orange (#FF6B35) - Energy, collaboration, developer enablement
 - **Cloud Engineer**: Steel Blue (#4682B4) - Trust, reliability, professionalism
 
 ## Testing Locally
@@ -191,7 +191,7 @@ The color schemes for each CV variant are based on research in color psychology 
 
 **Key Findings:**
 - **Purple (#7C3AED)**: Associated with creativity, innovation, and problem-solving - ideal for Software Developers
-- **Green (#059669)**: Conveys stability, growth, and operational health - perfect for DevOps Engineers
+- **Orange (#FF6B35)**: Conveys energy, warmth, and collaboration - perfect for DevOps Engineers focused on developer experience
 - **Blue (#4682B4)**: Represents trust, reliability, and professionalism - suited for Cloud Engineers
 
 ## License
