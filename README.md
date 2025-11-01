@@ -4,6 +4,29 @@
 
 Automated CV generation pipeline that creates multiple psychologically-optimized CV variants from YAML data.
 
+## Why This Approach?
+
+**The AI Trap**: Most people use AI wrong for CVs
+
+```mermaid
+%%{init: {"theme": "dark", "themeVariables": {"darkMode": true, "background": "#2b2b2b", "mainBkg": "#3a3a3a", "secondBkg": "#4a4a4a"}}}%%
+graph LR
+    A[AI] -->|❌ Wrong| B[Complete CV]
+    A -->|✓ Right| C[YAML Data]
+    C --> D[Your Pipeline]
+    D --> E[Professional CV]
+
+    style B fill:#4a3a4a,stroke:#e599f7,stroke-width:2px
+    style E fill:#3a4a3a,stroke:#94d82d,stroke-width:2px
+```
+
+**The Right Approach:**
+- AI writes structured data (YAML facts)
+- YOU control the pipeline and output
+- Consistent quality across all variants
+- Version controlled career narrative
+- Update once → all CVs updated automatically
+
 ## Quick Start
 
 ### 1. Use This Template
@@ -119,7 +142,7 @@ Edit templates in `templates/*/template.tex.j2` - each uses AltaCV LaTeX class w
 
 ```bash
 # Install dependencies
-pip install Jinja2 PyYAML
+pip install PyYAML
 
 # Build all CVs
 make all
@@ -139,11 +162,30 @@ ls output/generated/*.pdf
 
 ## How It Works
 
-1. **YAML → Python**: `scripts/generate.py` reads YAML data files
-2. **Jinja2 Templates**: Populates LaTeX templates with filtered data
-3. **LaTeX → PDF**: Compiles templates into professional PDFs
-4. **Testing**: `scripts/test_data_completeness.py` verifies all data appears
-5. **CI/CD**: GitHub Actions automates the entire pipeline
+```mermaid
+%%{init: {"theme": "dark", "themeVariables": {"darkMode": true, "background": "#2b2b2b", "mainBkg": "#3a3a3a", "secondBkg": "#4a4a4a"}}}%%
+sequenceDiagram
+    participant YAML as YAML Data
+    participant Python as Python Generator
+    participant LaTeX as LaTeX Compiler
+    participant PDF as PDF Output
+    participant Test as Test Suite
+
+    YAML->>Python: Load data files
+    Python->>Python: Validate & escape
+    Python->>LaTeX: Generate .tex
+    LaTeX->>PDF: Compile PDFs
+    PDF->>Test: Validate completeness
+    Test->>Test: All data present?
+```
+
+**Key Steps:**
+1. Load YAML data from `data/` directory
+2. Python validates and escapes special characters
+3. Direct Python string building generates LaTeX (no templates)
+4. LaTeX compiler creates professional PDFs
+5. Test suite verifies 100% data completeness
+6. GitHub Actions automates entire workflow
 
 ## Troubleshooting
 
@@ -152,7 +194,7 @@ ls output/generated/*.pdf
 Check dependencies:
 ```bash
 # Python packages
-pip list | grep -E "Jinja2|PyYAML"
+pip list | grep PyYAML
 
 # LaTeX
 pdflatex --version
